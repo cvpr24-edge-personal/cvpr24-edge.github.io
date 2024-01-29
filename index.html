@@ -19,9 +19,7 @@
 -->
         <img src=https://iccv2023.thecvf.com/img/LogoICCV23V04.svg" width='100'><rect width="100%" height="100%"></rect></img>
         <span> </span>
-        <span class="fs-4"><b>ICCV 2023 Workshop</b> on <span style="color:#33b5ff">A</span>dversarial
-        <span style="color:#33b5ff">RO</span>bustness in the Real
-        <span style="color:#33b5ff">W</span>orld (<span style="color:#33b5ff">AROW</span>)
+        <span class="fs-4"><b>CVPR 2024 Workshop</b> on <span style="color:#33b5ff">E</span>fficient and On-<span style="color:#33b5ff">D</span>evice <span style="color:#33b5ff">Ge</span>neration (<span style="color:#33b5ff">EDGE</span>)
       </a>
 
       <ul class="nav nav-pills">
@@ -40,8 +38,8 @@
 <br>
 
 <div class="container text-center">
-<h2>Welcome to the 4th Workshop on Adversarial Robustness In the Real World (AROW)</h2>
-<h2>ICCV 2023, Paris</h2>
+<h2>Welcome to the 1st Workshop on Efficient and On-Device Generation (EDGE)</h2>
+<h2>CVPR 2024, Seattle</h2>
 <p class="lead">
 Recent deep-learning-based methods achieve great performance on various vision applications.
 However, insufficient robustness on adversarial cases limits real-world applications of deep-learning-
@@ -92,6 +90,7 @@ improve the adversarial robustness of computer vision systems.
 
 <div class="container lead">
 <ul>
+<!--
 <li>2023-10-02 (UTC-4): The workshop has finished. We will upload the recording soon.</li>
 <li>2023-08-21 (UTC-4): The camera-ready version of extended abstract papers are available on this website.</li>
 <li>2023-08-10 (UTC-7): We updated the list of reviewers on the website. We appreciate their contributions!</li>
@@ -99,6 +98,7 @@ improve the adversarial robustness of computer vision systems.
 <li>2023-08-10 (UTC-7): We have accepted 19 papers (13 long + 6 extended abstract). Congratulations to the corresponding authors! We have notified the authors, and added the paper list to the website.</li>
 <li>2023-07-18 (UTC-7): Good news! We have extended the paper submission deadline by 3 days!</li>
 <li>2023-07-05 (UTC-7): We also accept extended abstracts besides long papers. See the updated author guide for detail.</li>
+-->
 <li>2023-06-30 (UTC-7): The paper submission link is <a href="https://cmt3.research.microsoft.com/ICCVworkshopAROW2023/Submission/Index">here</a>.</li>
 <li>2023-06-29 (UTC-7): The paper submission deadline is updated as <u>July 17, 2023</u>.</li>
 </ul>
@@ -122,21 +122,7 @@ improve the adversarial robustness of computer vision systems.
 <div class="container">
 <p class="lead">
 
-Computer vision systems achieve advanced performance, however, research in
-adversarial machine learning shows concurrent vision systems are less robust in
-comparison to human vision systems.  Perturbation-based adversarial examples
-achieve a significant impact on vision systems accuracy but remain a gap toward
-real-world scenarios. While recent works demonstrate deep-learning-based
-methods are also vulnerable to those more real-world adversarial examples, e.g.,
-partial occlusions, atmospheric changes, and style changes.  Such vulnerability
-potentially limits the real-world usage of computer vision systems.
-Discovering, evaluating, and defending those real-world adversarial examples
-helps to understand and improve the robustness of computer vision systems,
-which can help the deployment of computer vision systems in safety-critical
-applications.  This workshop aims to bring together researchers from various
-fields, including adversarial machine learning, robust vision, and explainable
-AI, to discuss recent research and future directions for adversarial robustness
-and explainability, with a particular focus on real-world scenarios.
+The First Workshop on <strong>E</strong>fficient and On-<strong>D</strong>evice <strong>Ge</strong>neration (<strong>EDGE</strong>) at CVPR 2024 will focus on the latest advancements in generative AI in the computer vision domain, with an emphasis on efficiencies across multiple aspects. For example, we welcome techniques that enable generative models to be trained more efficiently and/or run on resource-constrained devices, such as mobile phones and edge devices. Through these efforts, we envision a future where these permeating generative AI capabilities become significantly more accessible with virtuous scalability and plateauing carbon footprint. 
 </p>
 
 <p class="lead">
@@ -145,25 +131,63 @@ The topics involved in the workshop include but are not limited to:
 
     <ul class="lead">
 
-    <li> Robustness of large/foundation vision/language models.</li>
+    <li> <strong>Training efficiency aspect:</strong> </li>
+	
+		<ul>
+		<li> Methods for reducing the memory footprint of generative models. </li>
+		<li> Using knowledge distillation to support model compression. </li>
+		<li> Design of efficient computational modules and algorithms for generative models </li>
+		<li> Hardware-aware training acceleration and energy efficient computing. </li>
+		<li> Online training under edge constraints. </li>
+		<li> Parameter efficient tuning. </li>					
+		</ul>
 
-    <li> Discovery of real-world adversarial examples. </li>
+    <li> <strong>Inference efficiency aspect:</strong> </li>
+		
+		<ul>
+		<li> Techniques for reducing the computational complexity of generative models, such as model compression, quantization, sparsification, and distillation. </li>
+		<li> Advanced sampling techniques for fast inference. </li>
+		<li> Approaches for efficient deployment and distribution generative models across multiple devices or edge devices. </li>	
+		<li> Hardware-aware inference acceleration and energy efficient computing. </li>
+		</ul>
+		
 
-    <li> Datasets for evaluating model robustness. </li>
+    <li> <strong>Data efficiency aspect:</strong> </li>
+					
+		<ul>
+		<li> Few-shot diffusion model. </li>
+		<li> Generative model finetuning. </li>
+		<li> Data efficiency for generative models and/or foundation models. </li>					
+		</ul>					
 
-    <li> Novel architectures that are adversarially robust. </li>
+    <li> <strong>Evaluation efficiency aspect:</strong> </li>
+					
+		<ul>
+		<li> Efficient evaluation of generative models. </li>
+		<li> Methods for benchmarking the efficiency of generative models. </li>
+		<li> Challenges in evaluating the efficiency of generative models in diverse applications. </li>					
+		</ul>		
 
-    <li> Improving generalization performance of computer vision systems to adversarial or out-of-distribution samples. </li>
-
-    <li> Structured deep models and explainable AI. </li>
-
-    <li> Bias, and fairness in large vision and language models. </li>
-
-    <li> Detection of generated images and texts. </li>
-
-    <li> Data privacy protection in distributed/federated learning. </li>
-
-    <li> Backdoor/poisoning attack and defense. </li>
+    <li> <strong>Application-specific efficiency aspect:</strong> </li>
+					
+		<ul>
+		<li> Applications of efficient generative AI in computer vision, such as image generation, style transfer, and super-resolution. </li>
+		<li> Efficient personalization and post-generation editing. </li>
+		<li> Real-time neural rendering. </li>
+		<li> Interdisciplinary approaches that combine efficient generative AI with other fields, such as natural language processing, robotics, and human-computer interaction. </li>
+		<li> Efficient generative models for video synthesis. </li>	
+		<li> Efficient interplay between image generation, video generation, and language generation such as efficient text2img, img2text, text2video, video2text, img2video, video2img, etc. </li>						
+		</ul>
+					
+    <li> <strong>Other related topics:</strong> </li>
+							
+		<ul>
+		<li> Challenges and opportunities. </li>
+		<li> Exploratory direction. </li>
+		<li> New evaluation metrics. </li>
+		<li> Privacy considerations. </li>
+		</ul>
+ 
 
     </ul>
 
@@ -252,6 +276,7 @@ The topics involved in the workshop include but are not limited to:
     </div><!-- /.row -->
 </div><!-- /.container -->
 
+<!--
 
 
 
@@ -373,6 +398,7 @@ The topics involved in the workshop include but are not limited to:
 </div><!--container-->
 
 
+-->
 
 
 
@@ -390,141 +416,149 @@ The topics involved in the workshop include but are not limited to:
     <div class="row">
 
       <div class="col">
-        <a href="https://scholar.google.com/citations?user=N1-l4GsAAAAJ&hl=en">
-        <img class="rounded-circle" width="100" height="auto" src="assets/YutongBai.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Yutong Bai</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://cdluminate.github.io/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/mozhou.jpeg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Mo Zhou</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /div -->
-      <div class="col">
-        <a href="https://scholar.google.com/citations?user=YR7re-cAAAAJ&hl">
-        <img class="rounded-circle" width="100" height="auto" src="assets/AngtianWang.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Angtian Wang</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://vsehwag.github.io/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/vikash.jpg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Vikash Sehwag</h5>
-		</a>
-        <p style="color:grey">Princeton University</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://adamkortylewski.com/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/AdamKortylewski.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Adam Kortylewski</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://cihangxie.github.io/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/cihangxie.jpeg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Cihang Xie</h5>
-		</a>
-        <p style="color:grey">University of California, Santa Cruz</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://yisenwang.github.io/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/yisen.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Yisen Wang</h5>
-		</a>
-        <p style="color:grey">Peking University</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://jungyhuk.github.io/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/XinyunChen.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Xinyun Chen</h5>
-		</a>
-        <p style="color:grey">University of California, Berkeley</p>
-      </div><!-- /div -->
-      <div class="col">
-		<a href="https://www.cc.gatech.edu/~judy/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/JudyHoffman.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Judy Hoffman</h5>
-		</a>
-        <p style="color:grey">Georgia Tech</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="https://people.eecs.berkeley.edu/~dawnsong/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/DawnSong.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Dawn Song</h5>
-		</a>
-        <p style="color:grey">University of California, Berkeley</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="http://ml.cs.tsinghua.edu.cn/~jun/index.shtml">
-        <img class="rounded-circle" width="100" height="auto" src="assets/JunZhu.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Jun Zhu</h5>
-		</a>
-        <p style="color:grey">Tsinghua University</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="https://engineering.jhu.edu/faculty/rama-chellappa/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/rama.jpg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Rama Chellapa</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="https://ganghua.org/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/GangHua.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Gang Hua</h5>
-		</a>
-        <p style="color:grey">Wormpex AI Research</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="https://engineering.jhu.edu/faculty/vishal-patel/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/vishal.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Vishal M. Patel</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="http://ml.cs.tsinghua.edu.cn/~yinpeng/">
-        <img class="rounded-circle" width="100" height="100" src="assets/YinpengDong.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Yinpeng Dong</h5>
-		</a>
-        <p style="color:grey">Tsinghua University</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="https://yingwei.li/">
-        <img class="rounded-circle" width="100" height="auto" src="assets/YingweiLi.jpg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Yingwei Li</h5>
-		</a>
-        <p style="color:grey">Johns Hopkins University</p>
-      </div><!-- /.div -->
-      <div class="col">
-		<a href="http://xujuefei.com/">
+        <a href="https://xujuefei.com/">
         <img class="rounded-circle" width="100" height="auto" src="assets/felix.jpg"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Felix Juefei-Xu</h5>
+        <h5 class="fw-normal">Felix Juefei-Xu*</h5>
 		</a>
-        <p style="color:grey">Meta AI</p>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://tbhou.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/mozhou.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Tingbo Hou*</h5>
+		</a>
+        <p style="color:grey">Google</p>
+      </div><!-- /div -->
+      <div class="col">
+        <a href="https://lichengunc.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/AngtianWang.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Licheng Yu</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://ruiqigao.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/vikash.jpg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Ruiqi Gao</h5>
+		</a>
+        <p style="color:grey">Google DeepMind</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://sites.google.com/view/xiaoliangdai">
+        <img class="rounded-circle" width="100" height="auto" src="assets/AdamKortylewski.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Xiaoliang Dai</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://scholar.google.com/citations?user=eZQNcvcAAAAJ&hl=en">
+        <img class="rounded-circle" width="100" height="auto" src="assets/cihangxie.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Huiwen Chang</h5>
+		</a>
+        <p style="color:grey">OpenAI</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://scholar.google.com/citations?user=K3QJPdMAAAAJ&hl=en">
+        <img class="rounded-circle" width="100" height="auto" src="assets/yisen.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Bichen Wu</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://cs.stanford.edu/~chenlin/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/XinyunChen.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Chenlin Meng</h5>
+		</a>
+        <p style="color:grey">Stanford University</p>
+      </div><!-- /div -->
+      <div class="col">
+		<a href="https://n-zhang.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/JudyHoffman.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Ning Zhang</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
       </div><!-- /.div -->
       <div class="col">
-		<a href="http://www.cs.jhu.edu/~ayuille/index.html">
+		<a href="https://xuyanwu.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/DawnSong.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Yanwu Xu</h5>
+		</a>
+        <p style="color:grey">Boston University</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://xiyinmsu.github.io/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/JunZhu.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Xi Yin</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://siruixie.com/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/rama.jpg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Sirui Xie</h5>
+		</a>
+        <p style="color:grey">UCLA</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://scholar.google.com/citations?user=1T2Xh68AAAAJ&hl=en">
+        <img class="rounded-circle" width="100" height="auto" src="assets/GangHua.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Camille Couprie</h5>
+		</a>
+        <p style="color:grey">FAIR, Meta</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://cs.stanford.edu/~yzzhang/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/vishal.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Yunzhi Zhang</h5>
+		</a>
+        <p style="color:grey">Stanford University</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://scholar.google.com/citations?user=WXUm4uUAAAAJ&hl=en">
+        <img class="rounded-circle" width="100" height="100" src="assets/YinpengDong.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Andrew Brown</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://sites.google.com/view/zhao-yang/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/YingweiLi.jpg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Yang Zhao</h5>
+		</a>
+        <p style="color:grey">Google</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://www.alithabet.com/">
+        <img class="rounded-circle" width="100" height="auto" src="assets/felix.jpg"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Ali Thabet</h5>
+		</a>
+        <p style="color:grey">Genai, Meta</p>
+      </div><!-- /.div -->
+      <div class="col">
+		<a href="https://xavierxiao.github.io/">
         <img class="rounded-circle" width="100" height="auto" src="assets/alan.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Alan L. Yuille</h5>
+        <h5 class="fw-normal">Zhisheng Xiao</h5>
 		</a>
-        <p style="color:grey">Johns Hopkins University</p>
+        <p style="color:grey">Google</p>
       </div><!-- /.div -->
       <div class="col">
-		<a href="https://scholar.google.com/citations?user=bvG0PeEAAAAJ&hl=en">
+		<a href="https://scholar.google.com/citations?user=eqQQkM4AAAAJ&hl=en">
         <img class="rounded-circle" width="100" height="100" src="assets/SiyueWang.png"><rect width="100%" height="100%"></rect></img>
-        <h5 class="fw-normal">Siyue Wang</h5>
+        <h5 class="fw-normal">Peizhao Zhang</h5>
 		</a>
-        <p style="color:grey">Microsoft Security Research</p>
+        <p style="color:grey">GenAI, Meta</p>
       </div><!-- /.div -->
-    </div><!-- /.row -->
+      <div class="col">
+		<a href="https://sites.google.com/site/vajdap">
+        <img class="rounded-circle" width="100" height="100" src="assets/SiyueWang.png"><rect width="100%" height="100%"></rect></img>
+        <h5 class="fw-normal">Peter Vajda</h5>
+		</a>
+        <p style="color:grey">GenAI, Meta</p>
+      </div><!-- /.div -->
+ </div><!-- /.row -->
 </div><!-- /.container -->
 
+<!--
 
 <br>
 <hr>
@@ -565,6 +599,7 @@ The topics involved in the workshop include but are not limited to:
 </ul>
 </div>
 
+-->
 
 
 <br>
@@ -615,6 +650,9 @@ The papers will not appear in individual proceedings for each workshop, but unde
 </div>
 
 
+
+<!--
+
 <div class="container text-center lead">
 <h1>Information for Presenters</h1>
 </div>
@@ -660,131 +698,10 @@ Note that the number of seats in each room may decrease to get space for poster 
 
 </ol>
 </div>
+-->
 
 
 
-<br>
-<hr>
-<br>
-<div class="text-center container lead" id="papers">
-<h1>Accepted Long Papers</h1>
-<p>In total 12 long papers are accepted. They are still going through the publication process with IEEE.</p>
-</div>
-<br>
-
-<div class="container lead">
-<ul>
-
-<!-- 0005 -->
-<li><b>Adversarial Examples with Specular Highlights</b>
-<p>Vanshika Vats (University of California Santa Cruz, IIIT Delhi)*; Koteswar Rao Jerripothula (IIIT Delhi)</p>
-</li>
-
-<!-- 0006 -->
-<li><b>IPCert: Provably Robust Intellectual Property Protection for Machine Learning</b>
-<p>Zhengyuan Jiang (Duke university)*; Minghong Fang (The Ohio State University); Neil Zhenqiang Gong (Duke University)</p>
-</li>
-
-<!-- 0007 -->
-<li><b>Fair Robust Active Learning by Joint Inconsistency</b>
-<p>Tsung-Han Wu (National Taiwan University)*; Hung-Ting Su (National Taiwan University); Shang-Tse Chen (National Taiwan University); Winston H. Hsu (National Taiwan University)</p>
-</li>
-
-<!-- 0008 -->
-<li><b>Classification robustness to common optical aberrations</b>
-<p>Patrick Müller (University of Siegen)*; Alexander Braun (University of Applied Sciences Düsseldorf); Margret Keuper (University of Siegen, Max Planck Institute for Informatics)</p>
-</li>
-
-<!-- 0011 -->
-<li><b>Defense-Prefix for Preventing Typographic Attacks on CLIP</b> <span class="badge text-bg-success">Best Paper Award</span>
-<p>Hiroki Azuma (The University of Tokyo)*; Yusuke Matsui (The University of Tokyo)</p>
-</li>
-
-<!-- 0012 -->
-<li><b>Efficient Combination of Deep Learning Models for Caption Enrichment</b>
-<p>Hidetomo Sakaino (Weathernews Inc.)*; Nguyen X Nam (Bunbu); Bach Hoang Nguyen (Bunbusoft)</p>
-</li>
-
-<!-- 0015 -->
-<li><b>PRAT: PRofiling Adversarial aTtacks</b>
-<p>rahul ambati (University of Central Florida)*; Naveed Akhtar (The University of Western Australia); Yogesh Rawat (University of Central Florida); Ajmal Mian (University of Western Australia)</p>
-</li>
-
-<!-- 0019 -->
-<li><b>On the Adversarial Robustness of Multi-Modal Foundation Models</b>
-<p>Christian Schlarmann (University of Tübingen)*; Matthias Hein (University of Tübingen)</p>
-</li>
-
-<!-- 0022 -->
-<li><b>BLACK-BOX ATTACKS ON IMAGE ACTIVITY PREDICTION AND ITS NATURAL LANGUAGE EXPLANATIONS</b>
-<p>Alina Elena Baia (Idiap Research Institute)*; Valentina Poggioni (University of Perugia); ANDREA CAVALLARO (Queen Mary University of London, UK)</p>
-</li>
-
-<!-- 0023 -->
-<li><b>OMG-ATTACK: Self-Supervised On-Manifold Generation of Transferable Evasion Attacks</b>
-<p>Ofir Bar Tal (TAU); Adi Haviv (Tel Aviv University)*; Amit H Bermano (Tel-Aviv University)</p>
-</li>
-
-<!-- 0032 -->
-<li><b>On the unreasonable vulnerability of transformers for image restoration and an easy fix</b>
-<p>Shashank Agnihotri (University of Siegen)*; Kanchana Vaishnavi Gandikota (University of Siegen); Julia Grabinski (University of Siegen); Paramanand Chandramouli (University of Siegen); Margret Keuper (University of Siegen, Max Planck Institute for Informatics)</p>
-</li>
-
-<!-- 0033 -->
-<li><b>Targeted Adversarial Attacks on Generalizable Neural Radiance Fields</b>
-<p>Andras Horvath (Peter Pazmany Catholic University)*; Csaba Jozsa (Nokia Bell Labs)</p>
-</li>
-
-</ul>
-</div>
-
-<br>
-<br>
-<div class="text-center container lead">
-<h1>Accepted Extended Abstracts</h1>
-<p>In total 6 extended abstracts are accepted. PDFs are hosted on this website.</p>
-</div>
-
-<div class="container lead"> <ul>
-
-<!-- 0009 -->
-<li><b>FACL-Attack: Frequency-Aware Contrastive Learning for Transferable Adversarial Attacks</b>
-<a href="pdf/arow-0009.pdf"><span class="badge text-bg-info">PDF</span></a>
-<p>Hunmin Yang (KAIST)*; Jongoh Jeong (KAIST); Kuk-Jin Yoon (KAIST)</p>
-</li>
-
-<!-- 0014 -->
-<li><b>Generalizability of Adversarial Robustness Under Distribution Shifts</b>
-<a href="pdf/arow-0014.pdf"><span class="badge text-bg-info">PDF</span></a>
-<p>Kumail Alhamoud (KAUST)*; Hasan Abed Al Kader Hammoud (King Abdullah University of Science and Technology ); Motasem Alfarra (KAUST); Bernard Ghanem (KAUST)</p>
-</li>
-
-<!-- 0020 -->
-<li><b>Towards the Adversarial Robustness of Vision-Language Model with Chain-of-Thought Reasoning</b>
-<a href="pdf/arow-0020.pdf"><span class="badge text-bg-info">PDF</span></a>
-<p>Zefeng Wang (TUM); Zhen Han (LMU Munich); Jindong Gu (University of Oxford)*; Shuo Chen (LMU Munich); Volker Tresp (LMU)</p>
-</li>
-
-<!-- 0025 -->
-<li><b>Learning the Unlearnable: Adversarial Augmentations Suppress Unlearnable Example Attacks</b>
-<a href="pdf/arow-0025.pdf"><span class="badge text-bg-info">PDF</span></a>
-<p>Tianrui Qin (SIAT); Xitong Gao (Shenzhen Institutes of Advanced Technology,Chinese Academy of Sciences)*; juanjuan zhao (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences); Kejiang Ye (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences); Cheng-Zhong Xu (University of Macau)</p>
-</li>
-
-<!-- 0031 -->
-<li><b>Adversarial Bayesian Augmentation for Single-Source Domain Generalization</b>
-<a href="pdf/arow-0031.pdf"><span class="badge text-bg-info">PDF</span></a>
-<p>Sheng Cheng (Arizona State University)*; Tejas Gokhale (Arizona State University); Yezhou Yang (Arizona State University)<p>
-</li>
-
-<!-- 0034 -->
-<li><b>Weakly-supervised detection of diffusion-based image manipulations</b>
-<a href="pdf/arow-0034.pdf"><span class="badge text-bg-info">PDF</span></a>
-<span class="badge text-bg-success">Best Paper Award</span>
-<p>Elisabeta Oneata (Bitdefender)*; Dan Oneata (Politehnica University of Bucharest); Dragos Tantaru (Bitdefender)</p>
-</li>
-
-</ul> </div>
 
 
 
@@ -802,6 +719,8 @@ Note that the number of seats in each room may decrease to get space for poster 
 </div><!--container-->
 
 
+<!--
+							 
 <br>
 <hr>
 <br>
@@ -853,7 +772,12 @@ Note that the number of seats in each room may decrease to get space for poster 
 <li><a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php">ICCV 2023 list of accepted workshops</a></li>
 </ul>
 </div><!--container-->
+-->
 
+																		   
+<!--
+																		   
+																		   
 <br>
 <hr>
 <br>
@@ -869,14 +793,18 @@ Note that the number of seats in each room may decrease to get space for poster 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 Exciting news! Join us at the 4th Workshop on Adversarial Robustness In the Real World, happening at ICCV 2023 in Paris, France. 🌍🤖<br><br>🔗 Workshop Website: <a href="https://t.co/ELnVUJyg3H">https://t.co/ELnVUJyg3H</a><a href="https://twitter.com/hashtag/AROW?src=hash&amp;ref_src=twsrc%5Etfw">#AROW</a> <a href="https://twitter.com/hashtag/ICCV2023?src=hash&amp;ref_src=twsrc%5Etfw">#ICCV2023</a> <a href="https://twitter.com/hashtag/AdversarialRobustness?src=hash&amp;ref_src=twsrc%5Etfw">#AdversarialRobustness</a> <a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/ComputerVision?src=hash&amp;ref_src=twsrc%5Etfw">#ComputerVision</a> <a href="https://twitter.com/hashtag/Paris?src=hash&amp;ref_src=twsrc%5Etfw">#Paris</a></p>&mdash; M. Zhou (@MZhou73277685) <a href="https://twitter.com/MZhou73277685/status/1675377802349264896?ref_src=twsrc%5Etfw">July 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
+-->
+
+
+
 
 
 <br>
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary" id="contact">
-  <p>Please contact <a href="mailto:ytongbai@gmail.com">Yutong Bai</a> or <a href="mailto:mzhou32@jhu.edu">Mo Zhou</a> if you have questions. Issues about the website can be posed at <a href="https://github.com/iccv23-arow/iccv23-arow.github.io/issues">Github issues</a>. </p>
-  <p>The webpage is written by Mo Zhou from scratch with inspirations from the previous AROW workshop websites. The <a href="https://github.com/iccv23-arow/iccv23-arow.github.io">HTML source code</a> is released under the CC-0 license.</p>
-  <p>ICCV 2023 AROW Workshop</p>
+  <p>Please contact <a href="mailto:felixu@meta.com">Felix Juefei Xu</a> or <a href="mailto:houtingbo@gmail.com">Tingbo Hou</a> if you have questions. Issues about the website can be posed at <a href="https://github.com/cvpr24-edge/cvpr23-edge.github.io/issues">Github issues</a>. </p>
+  <p>The webpage is adapted from ICCV 2023 AROW Workshop webpage created by Mo Zhou. The <a href="https://github.com/iccv23-arow/iccv23-arow.github.io">HTML source code</a> is released under the CC-0 license.</p>
+  <p>CVPR 2024 EDGE Workshop</p>
   <p class="mb-0">
     <a href="#">Back to top</a>
   </p>
